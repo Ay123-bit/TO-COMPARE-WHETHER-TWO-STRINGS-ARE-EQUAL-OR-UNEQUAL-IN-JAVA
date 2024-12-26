@@ -1,0 +1,26 @@
+//INPUT
+//USING IF ELSE STATEMENT(==), str!=str2 and str.equals(str2)
+import java.util.*;
+public class main{
+  public static void main(String[] args){
+    String str = "Ankit Kumar";
+    String str2 = new String("Ankit Kumar");
+    if(str==str2){
+       System.out.println("Both are equal");
+    }
+  else{
+    System.out.println("Both are unequal");
+    
+  }
+  if(str.equals(str2)){
+       System.out.println("Both are equal");
+    }
+  else{
+    System.out.println("Both are unequal");
+    
+  }
+}
+}
+//OUTPUT
+Both are unequal
+Both are equal
